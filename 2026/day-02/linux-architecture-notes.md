@@ -8,7 +8,8 @@ The core components of Linux (kernel, user space, init/systemd)
 Role: The kernel is the heart of Linux. It manages CPU, memory, devices, and system calls.
 
 <b> Responsibilities: </b>
- <ul> <li>Hardware abstraction (drivers for disk, network, GPU, etc.)</li>
+ <ul>
+  <li>Hardware abstraction (drivers for disk, network, GPU, etc.)</li>
 
     <li>Process scheduling and multitasking </li>
 
@@ -16,7 +17,8 @@ Role: The kernel is the heart of Linux. It manages CPU, memory, devices, and sys
 
     <li>Filesystem handling (ext4, XFS, etc.)</li>
 
-    <li>Networking stack (TCP/IP, sockets)</li></u1>
+    <li>Networking stack (TCP/IP, sockets)</li>
+    </ul>
 
 <strong> Key point: Without the kernel, user applications cannot interact with hardware. </strong>
 
