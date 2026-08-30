@@ -1,4 +1,4 @@
-Linux architecture Diagram:
+#h1 Linux architecture Diagram:
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/faa664a9-91db-4944-a6e2-8ad3a2d9cf09" />
 The core components of Linux (kernel, user space, init/systemd)
