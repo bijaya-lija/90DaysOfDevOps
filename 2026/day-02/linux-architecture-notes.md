@@ -37,7 +37,7 @@ Definition: Everything outside the kernel — applications, libraries, shells, a
 <li>systemd (modern): Now the default in most Linux distros.</li>
 </ul>
 
-  Responsibilities:
+ <strong>Responsibilities:</strong>
 
     Starts as PID 1 after kernel initialization.
 
