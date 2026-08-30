@@ -26,32 +26,32 @@ Definition: Everything outside the kernel — applications, libraries, shells, a
 
 Components:
 
-GNU utilities (bash, coreutils, etc.)
+  GNU utilities (bash, coreutils, etc.)
 
-Libraries (glibc, OpenSSL, etc.)
+  Libraries (glibc, OpenSSL, etc.)
 
-Applications (editors, browsers, servers)
+  Applications (editors, browsers, servers)
 
-Desktop environments (GNOME, KDE, XFCE)
+  Desktop environments (GNOME, KDE, XFCE)
 
-Interaction: Programs in user space call kernel functions via system calls (e.g., open(), read(), write()).
+  Interaction: Programs in user space call kernel functions via system calls (e.g., open(), read(), write()).
 
  <h2> 3. Init System / systemd </h2>
 Init (historical): The first process (PID 1) started by the kernel after boot. Traditionally SysV init, which used runlevels (0–6) to define system states.
 
 systemd (modern): Now the default in most Linux distros.
 
-Responsibilities:
+  Responsibilities:
 
-Starts as PID 1 after kernel initialization.
+    Starts as PID 1 after kernel initialization.
 
-Manages services, sockets, timers, and mounts.
+    Manages services, sockets, timers, and mounts.
 
-Provides parallel startup for faster boot.
+    Provides parallel startup for faster boot.
 
-Monitors and restarts failed services.
+    Monitors and restarts failed services.
 
-Defines system states via targets (e.g., multi-user.target, graphical.target).
+    Defines system states via targets (e.g., multi-user.target, graphical.target).
 
 <img width="912" height="290" alt="image" src="https://github.com/user-attachments/assets/cc6a3232-cb13-4914-ac9d-83eb518aa1ed" />
 
