@@ -32,9 +32,10 @@ Definition: Everything outside the kernel — applications, libraries, shells, a
   Interaction: Programs in user space call kernel functions via system calls (e.g., open(), read(), write()).
 
  <h2> 3. Init System / systemd </h2>
-Init (historical): The first process (PID 1) started by the kernel after boot. Traditionally SysV init, which used runlevels (0–6) to define system states.
-
-systemd (modern): Now the default in most Linux distros.
+<ul>
+<li>Init (historical): The first process (PID 1) started by the kernel after boot. Traditionally SysV init, which used runlevels (0–6) to define system states.</li>
+<li>systemd (modern): Now the default in most Linux distros.</li>
+</ul>
 
   Responsibilities:
 
