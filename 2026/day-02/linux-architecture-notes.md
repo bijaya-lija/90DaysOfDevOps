@@ -19,18 +19,16 @@ Role: The kernel is the heart of Linux. It manages CPU, memory, devices, and sys
 <strong> Key point: Without the kernel, user applications cannot interact with hardware. </strong>
 
 <h2> 2. User Space </h2>
+
 Definition: Everything outside the kernel — applications, libraries, shells, and graphical environments.
 
-Components:
-
-  GNU utilities (bash, coreutils, etc.)
-
-  Libraries (glibc, OpenSSL, etc.)
-
-  Applications (editors, browsers, servers)
-
-  Desktop environments (GNOME, KDE, XFCE)
-
+<b>Components: </b>
+<ul>
+  <li>GNU utilities (bash, coreutils, etc.)</li>
+  <li>Libraries (glibc, OpenSSL, etc.)</li>
+  <li>Applications (editors, browsers, servers)</li>
+  <li>Desktop environments (GNOME, KDE, XFCE)</li>
+</ul>
   Interaction: Programs in user space call kernel functions via system calls (e.g., open(), read(), write()).
 
  <h2> 3. Init System / systemd </h2>
