@@ -19,7 +19,7 @@ Filesystem handling (ext4, XFS, etc.)
 
 Networking stack (TCP/IP, sockets)
 
-Key point: Without the kernel, user applications cannot interact with hardware.
+<strong> Key point: Without the kernel, user applications cannot interact with hardware.
 
 <h2> 2. User Space </h2>
 Definition: Everything outside the kernel — applications, libraries, shells, and graphical environments.
