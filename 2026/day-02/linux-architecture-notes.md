@@ -1,6 +1,7 @@
-<h1></h1> Linux architecture Diagram:</h1>
+<h1> Linux architecture Diagram:</h1>
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/faa664a9-91db-4944-a6e2-8ad3a2d9cf09" />
+
 The core components of Linux (kernel, user space, init/systemd)
 
 <h2>1. Kernel </h2>
@@ -20,7 +21,7 @@ Networking stack (TCP/IP, sockets)
 
 Key point: Without the kernel, user applications cannot interact with hardware.
 
-2. User Space
+<h2> 2. User Space </h2>
 Definition: Everything outside the kernel — applications, libraries, shells, and graphical environments.
 
 Components:
@@ -35,7 +36,7 @@ Desktop environments (GNOME, KDE, XFCE)
 
 Interaction: Programs in user space call kernel functions via system calls (e.g., open(), read(), write()).
 
-3. Init System / systemd
+ <h2> 3. Init System / systemd </h2>
 Init (historical): The first process (PID 1) started by the kernel after boot. Traditionally SysV init, which used runlevels (0–6) to define system states.
 
 systemd (modern): Now the default in most Linux distros.
