@@ -9,7 +9,7 @@ Role: The kernel is the heart of Linux. It manages CPU, memory, devices, and sys
 
 <b> Responsibilities: </b>
 
-    <u1> <li>Hardware abstraction (drivers for disk, network, GPU, etc.)</li
+   <p></p> <u1> <li>Hardware abstraction (drivers for disk, network, GPU, etc.)</li
 
     <li>Process scheduling and multitasking </li>
 
@@ -17,7 +17,7 @@ Role: The kernel is the heart of Linux. It manages CPU, memory, devices, and sys
 
     <li>Filesystem handling (ext4, XFS, etc.)</li>
 
-    <li>Networking stack (TCP/IP, sockets)</li></u1>
+    <li>Networking stack (TCP/IP, sockets)</li></u1></p>
 
 <strong> Key point: Without the kernel, user applications cannot interact with hardware. </strong>
 
